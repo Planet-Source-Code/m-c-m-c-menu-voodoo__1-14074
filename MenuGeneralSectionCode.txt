@@ -1,0 +1,28 @@
+'--------------------------------------------------------------------------------------------------------------------------
+'Generall section declarations for M.C. Menu Voodoo:
+'Menu identification number: 1234567890
+'Structure saved in: C:\ProjektiVB6\Api Menu(Ver31)\StateVer3.MAP
+'---------------------------------------------------------------------------------------------------------------------------
+Dim APICheck12345678901 as Boolean'Bold
+Dim APICheck12345678902 as Boolean'Normal
+Dim APICheck12345678903 as Boolean'Enabled
+Dim APICheck12345678904 as Boolean'Disabled
+Dim APICheck12345678905 as Boolean'Grayed
+Dim APICheck12345678906 as Boolean'Checked ?
+Dim APICheck12345678907 as Boolean'Checked ?/Not Checked
+Dim APICheck12345678908 as Boolean'Checked ?/On Start Checked/With Checkmark
+Dim APICheck12345678909 as Boolean'Checked ?/On Start Checked/With RadioButton
+Dim APICheck123456789010 as Boolean'Checked ?/On Start Checked/With Pictures
+Dim APICheck123456789011 as Boolean'Checked ?/On Start Checked/On Start Unchecked
+Dim APICheck123456789012 as Boolean'Checked ?/On Start Checked/On Start Unchecked/With Checkmark
+Dim APICheck123456789013 as Boolean'Checked ?/On Start Checked/On Start Unchecked/With RadioButton
+Dim APICheck123456789014 as Boolean'Checked ?/On Start Checked/On Start Unchecked/With Pictures
+Dim APICheck123456789015 as Boolean'Picture ?
+Dim APICheck123456789016 as Boolean'Picture ?/Yes
+Dim APICheck123456789017 as Boolean'Picture ?/No
+Dim APICheck123456789018 as Boolean'Insert Column Break
+Dim APICheck123456789019 as Boolean'Insert Column Break/With dividing line
+Dim APICheck123456789020 as Boolean'Insert Column Break/Without dividing line
+'--------------------------------------------------------------------------------------------------------------------------
+'End of Generall section declarations for M.C. Menu Voodoo
+'--------------------------------------------------------------------------------------------------------------------------

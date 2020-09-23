@@ -1,0 +1,7 @@
+'You have choosen to have some pics on your menu
+'so you have to put following array of picture controls into your projects.
+'Comments which picture fits into specific array element are allso here.
+'MenuPicBox0831066310(0) = (Voodoo to Sys Tray)
+'MenuPicBox0831066310(1) = (Voodoo minimize)
+'MenuPicBox0831066310(2) = (Voodoo close)
+'MenuPicBox0831066310(3) = (Thanks and links:)

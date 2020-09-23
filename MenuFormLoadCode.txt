@@ -1,0 +1,29 @@
+'--------------------------------------------------------------------------------------------------------------------------
+'Form_Load initial variables values for M.C. Menu Voodoo:
+'Menu identification number: 1234567890
+'Structure saved in: C:\ProjektiVB6\Api Menu(Ver31)\StateVer3.MAP
+'This is not neccesary, only if you like it
+'---------------------------------------------------------------------------------------------------------------------------
+APICheck12345678901 = False'Bold
+APICheck12345678902 = True'Normal
+APICheck12345678903 = True'Enabled
+APICheck12345678904 = False'Disabled
+APICheck12345678905 = False'Grayed
+APICheck12345678906 = False'Checked ?
+APICheck12345678907 = False'Checked ?/Not Checked
+APICheck12345678908 = False'Checked ?/On Start Checked/With Checkmark
+APICheck12345678909 = False'Checked ?/On Start Checked/With RadioButton
+APICheck123456789010 = False'Checked ?/On Start Checked/With Pictures
+APICheck123456789011 = False'Checked ?/On Start Checked/On Start Unchecked
+APICheck123456789012 = False'Checked ?/On Start Checked/On Start Unchecked/With Checkmark
+APICheck123456789013 = False'Checked ?/On Start Checked/On Start Unchecked/With RadioButton
+APICheck123456789014 = False'Checked ?/On Start Checked/On Start Unchecked/With Pictures
+APICheck123456789015 = False'Picture ?
+APICheck123456789016 = False'Picture ?/Yes
+APICheck123456789017 = True'Picture ?/No
+APICheck123456789018 = False'Insert Column Break
+APICheck123456789019 = False'Insert Column Break/With dividing line
+APICheck123456789020 = False'Insert Column Break/Without dividing line
+'--------------------------------------------------------------------------------------------------------------------------
+'End of Form_Load initial variables values for M.C. Menu Voodoo:
+'--------------------------------------------------------------------------------------------------------------------------
