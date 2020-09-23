@@ -1,0 +1,9 @@
+Form1 = 88, 88, 536, 358, , 44, 44, 570, 314, C
+SrtartUp = 88, 88, 550, 358, C
+frmSplash = 88, 88, 550, 358, C, 96, 70, 558, 340, C
+ListBoxStuff = 66, 66, 523, 336, C
+McCDLG = 66, 66, 524, 336, C
+MenuVoodooDeclares = 44, 44, 570, 314, C
+Form1SysMenuMod = 44, 44, 570, 314, 
+McClosingForm = 66, 66, 592, 336, C
+SysTray = 88, 88, 614, 358, C

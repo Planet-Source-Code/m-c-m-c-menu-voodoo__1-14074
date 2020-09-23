@@ -1,0 +1,47 @@
+Private Sub LetMouseGo_Click()
+mouseexit = True
+ClipCursor ByVal 0
+End Sub
+*******************
+Private Sub DeleteImage_Click()
+Unload Image1(ImageIdentifier)
+ImageDeleted = True
+End Sub
+*******************
+Private Sub SaveImage_Click()
+On Error GoTo ErrHandler
+CommonDialog1.ShowSave
+SavePicture Image1(ImageIdentifier).Picture, CommonDialog1.FileName
+Exit Sub
+ErrHandler:  'User pressed the Cancel button
+End Sub
+*******************
+Private Sub ResizeImage_Click()
+  'MCCaptureMouseCursorIntoNestedArea Me, FinalPicture, Image1(ImageIdentifier)
+
+'Me.MousePointer = 15
+'Me.MouseIcon = Image2.Picture
+ActionTaken = "RESIZER" 'effect in mouse move - finalpicture
+End Sub
+*******************
+Private Sub MoveImage_Click()
+'take it up into picturebox
+Picture3.Width = Image1(ImageIdentifier).Width
+Picture3.Height = Image1(ImageIdentifier).Height
+Set Picture3.Picture = Image1(ImageIdentifier).Picture
+
+Picture3.ZOrder 0
+'delete it from current position
+DeleteImage_Click
+'enable pic3 to be moved together with mouse
+Picture3.Visible = True
+Picture3.Refresh
+
+
+ActionTaken = "GLUER"
+End Sub
+*******************
+Private Sub GoGetAnotherPicture_Click()
+GoGetPic_Click
+End Sub
+*******************

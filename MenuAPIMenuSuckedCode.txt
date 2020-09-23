@@ -1,0 +1,10 @@
+Case 1002 '(Erase and replace)
+MsgBox " Warning: Your menu will be inserted at the start of sys menu, then all standard items will be erased, as side effect non of the command boxes in right top corner i.e. close button, min button....want work as they are, as I see, linked to items in sys menu."
+MCMenuVoodooSystem ("EraseAndReplace")
+Case 1001 '(Insert at the start)
+MCMenuVoodooSystem ("Insert")
+Case 1000 '(Add at the end)
+MCMenuVoodooSystem ("Add")
+Case Else
+End Select
+End Sub

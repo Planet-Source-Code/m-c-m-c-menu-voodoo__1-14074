@@ -1,0 +1,5 @@
+'You have choosen to have some pics on your menu:
+Place pic control on form named: MenuPicContainer(0)
+Set its's picture prop. to picture that you want to appear beside item called: Yes ,When Checked
+Place pic control on form named: MenuPicContainer(1)
+Set its's picture prop. to picture that you want to appear beside item called: Yes ,When UNChecked
